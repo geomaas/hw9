@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Geoff's Sample extension",
+  "description": "under-construction",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "Emoticon 40 Alien 2.png",
+    "default_popup": "popup.html",
+    "default_title": "Do it! Do it now!"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
